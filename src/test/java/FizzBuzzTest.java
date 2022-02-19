@@ -31,7 +31,7 @@ class FizzBuzzTest {
     }
 
     @Test
-    void test_saysHello_MethodDoesNotInvoked() {
+    void test_saysHello_MethodNotInvoked() {
         verify(mock, never()).sayHello();
     }
 
